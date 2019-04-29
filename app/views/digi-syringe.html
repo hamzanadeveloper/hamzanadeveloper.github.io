@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digi-Syringe - Hamza</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+    <script src="../scripts/slides.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/header-transition.js"></script>
+</head>
+<body>
+<div class="header-black">
+    <img src="../../assets/img/hna_black.png" class="logo-hna">
+    <div class="header-item"><a>CONTACT</a></div>
+    <div class="header-item"><a>RESUME</a></div>
+    <div onclick="location.href = 'portfolio.html'" class="header-item"><a style="border-bottom: 1px solid black;">PORTFOLIO</a></div>
+    <div onclick="location.href = 'profile.html'" class="header-item"><a>ABOUT</a></div>
+    <div onclick="location.href = '../../index.html'" class="header-item"><a>HOME</a></div>
+</div>
+
+<div class="project-title-container">
+    <div class="project-title">DIGI-SYRINGE</div>
+    <div class="healthim-head-right">University of Waterloo</div>
+</div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade" style="display:block;">
+        <div class="numbertext">1 / 3</div>
+        <img class="img-slide" src="../../assets/img/digi-slide-2.png.jpg" style="width:100%;max-height:353px;">
+        <div class="text">Profile View</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img class="img-slide" src="../../assets/img/digi-slide-1.png" style="width:100%;max-height:353px;">
+        <div class="text">Activity Log</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img class="img-slide" src="../../assets/img/digi-slide-3.png.jpg" style="width:100%;max-height:353px;">
+        <div class="text">Case Details</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="over-and-sum-horizontal">
+    <div class="overview-text">OVERVIEW</div>
+    <li class="bullet-pt"> Adhered a linear potentiometer to interior of syringe barrel to track the movement of the plunger and the volumes of fluid drawn into the syringe.</li>
+    <li class="bullet-pt"> Captured analog input from the resistance of the potentiometer, and mapped it to the draw length of the syringe.</li>
+    <li class="bullet-pt"> Used a drill press and drill machine to alter binding clips so that the hardware could attach to the syringe.</li>
+    <li class="bullet-pt"> Utilized the Serial monitor to report back the total volume plunged.</li>
+
+
+    <div class="summary-text">SUMMARY</div>
+    <div class="summary-para">
+        In compounding chemotherapy doses, clinicians often have to use a syringe multiple times to withdraw a solution from a single stage.
+        This can lead to miscounting the number of times a solution was withdrawn from the stage, which could have disastrous effects on the patient.
+        To remedy this issue, our team of 5 created a modular device that can be applied onto a syringe to track how often a syringe has been
+        plunged and what total volume has been plunged. 
+    </div>
+</div>
+
+</body>
+</html>

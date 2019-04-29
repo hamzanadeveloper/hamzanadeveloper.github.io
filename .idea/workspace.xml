@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b73dec1-6a75-4b1f-8c7f-287dbcd4fa56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/stylesheets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/case-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/case-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/digi-syringe.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/digi-syringe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/exoskeleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/exoskeleton.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/internal-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/internal-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/paid-duty.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/paid-duty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="6b73dec1-6a75-4b1f-8c7f-287dbcd4fa56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -333,16 +322,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556213695771</updated>
-      <workItem from="1556213697193" duration="44152000" />
+      <workItem from="1556213697193" duration="44360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44152000" />
+    <option name="totallyTimeSpent" value="44360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092153765" />

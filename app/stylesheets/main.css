@@ -75,6 +75,7 @@
     width: 100px;
     margin-left: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .contact-header {
@@ -235,6 +236,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.exoskeleton {
+    width: 100%;
+    float: right;
+    background-image: url('../../assets/img/exoskeleton.png');
+    height: 100%;
+    background-position: right -50px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .analytics-container {
     width: 300px;
     margin: 0 auto;
@@ -248,6 +258,15 @@
 .analytics {
     width: 100%;
     background-image: url('../../assets/img/analytics.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paid-duty {
+    width: 100%;
+    background-image: url('../../assets/img/paid-duty.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

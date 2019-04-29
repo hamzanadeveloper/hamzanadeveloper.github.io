@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paid Duties - Hamza</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+    <script src="../scripts/slides.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/header-transition.js"></script>
+</head>
+<body>
+<div class="header-black">
+    <img onclick="location.href = '../../index.html'" src="../../assets/img/hna_black.png" class="logo-hna">
+    <div class="header-item"><a>CONTACT</a></div>
+    <div class="header-item"><a>RESUME</a></div>
+    <div onclick="location.href = 'portfolio.html'" class="header-item"><a style="border-bottom: 1px solid black;">PORTFOLIO</a></div>
+    <div onclick="location.href = 'profile.html'" class="header-item"><a>ABOUT</a></div>
+    <div onclick="location.href = '../../index.html'" class="header-item"><a>HOME</a></div>
+</div>
+
+<div class="project-title-container" style="width: 800px;">
+    <div class="project-title">PAID DUTIES</div>
+    <div class="healthim-head-right" style="width: 800px;">Brantford Police Service</div>
+</div>
+<div style="width: 800px;margin:0 auto;">
+    <div class="slideshow-container" style="width: 350px;float: left">
+        <div class="mySlides fade" style="display:block;">
+            <div class="numbertext">1 / 4</div>
+            <img class="img-slide" src="../../assets/img/paid-duty.png" style="width:100%;height: 352px;">
+            <div class="text">User Entry</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img class="img-slide" src="../../assets/img/paid-duty-slide-3.png" style="width:100%;height: 352px;">
+            <div class="text">Welcome Screen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img class="img-slide" src="../../assets/img/paid-duty-slide-1.png" style="width:100%;height: 352px;">
+            <div class="text">Create Duty/User</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="img-slide" src="../../assets/img/paid-duty-slide-2.png" style="width:100%;height: 352px;">
+            <div class="text">Invoices</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center;margin-top:10px;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+
+<div class="over-and-sum-horizontal" style="width:435px;float: left;padding-left: 15px">
+    <div class="overview-text">OVERVIEW</div>
+    <li class="bullet-pt"> Developed a priority queue data structure using PHP and MySQL to create the turn-based system that would assign the duties to the officers.</li>
+    <li class="bullet-pt"> Utilized a WAMP stack to configure the application, explored CRON tabs and MySQL Events to send email alerts to users when duties were posted.</li>
+    <li class="bullet-pt"> Created a PHP script that would automate the mailing of duties to assigned officers.</li>
+    <li class="bullet-pt"> Used PHPSpreadSheet to export annual reports regarding invoices in a CSV format.</li>
+
+    <div class="summary-text">SUMMARY</div>
+    <div class="summary-para">
+        The paid duty project was the most extensive projects with the Brantford Police Service. I was tasked with making a web application that allowed
+        administration to post Paid Duties online for officers to see and apply for, a CRUD application. I used MySQL databases to store duties posted, users
+        who applied to certain duties, and users. I interacted with the database using PHP, and experimented with CRON tabs and MySQL events to automatically
+        assign users for duties. I also utilized mail-servers to automatically send alerts to users when updates were made to the application.
+    </div>
+</div>
+
+</body>
+</html>

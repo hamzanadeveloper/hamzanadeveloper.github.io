@@ -15,6 +15,9 @@
     margin: 0;
     height: 100%;
 }
+a{
+    text-decoration: none;
+}
 
 .background-image-index {
     background-image: url('https://uwaterloo.ca/magazine/sites/ca.magazine/files/uploads/images/e5-from-bridge.jpg');

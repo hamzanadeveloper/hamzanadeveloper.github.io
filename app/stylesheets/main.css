@@ -187,9 +187,28 @@
     box-shadow: 0px 0px 16px -2px rgba(122, 122, 122, 1);
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
+.internal-card-container{
+    width: 300px;
+    float: left;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(122, 122, 122, 1);
+    -moz-box-shadow: 0px 0px 16px -2px rgba(122, 122, 122, 1);
+    box-shadow: 0px 0px 16px -2px rgba(122, 122, 122, 1);
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
 .cm-card {
     width: 100%;
     background-image: url('../../assets/img/case_management.png');
+    float: left;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.internal-card {
+    width: 100%;
+    background-image: url('../../assets/img/internaldash.png');
     float: left;
     height: 100%;
     background-position: center;
@@ -235,7 +254,7 @@
     background-size: cover;
 }
 
-.cm-card-container div, .digi-syringe-container div, .analytics-container div{
+.cm-card-container div, .digi-syringe-container div, .analytics-container div, .internal-card-container div{
     transition: transform .5s ease, background-color .5s ease;
 }
 
@@ -247,7 +266,7 @@
     transition: opacity 0.5s, visibility 0.5s;
 }
 
-.analytics-container .analytics-hover-content{
+.analytics-container .analytics-hover-content, .internal-card-container .cm-hover-content{
     transition: opacity 0.5s, visibility 0.5s;
 }
 
@@ -265,7 +284,7 @@
     opacity: 0;
 }
 
-.cm-card-container:hover .cm-hover-content {
+.cm-card-container:hover .cm-hover-content, .internal-card-container:hover .cm-hover-content {
     visibility: visible;
     opacity: 1;
 }
@@ -277,7 +296,7 @@
     visibility: visible;
     opacity: 1;
 }
-.digi-syringe-container:hover div, .analytics-container:hover div {
+.digi-syringe-container:hover div, .analytics-container:hover div, .internal-card-container:hover div {
     transform: scale(1.35);
     background-color: rgba(0, 0, 0, 0.8);
 }

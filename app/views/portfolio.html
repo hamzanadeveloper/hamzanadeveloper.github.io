@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/header-transition.js"></script>
     <title>Portfolio - Hamza Arshad</title>
 </head>
 <body>
@@ -10,7 +12,7 @@
         <img src="../../assets/img/hna_black.png" class="logo-hna">
         <div class="header-item"><a>CONTACT</a></div>
         <div class="header-item"><a>RESUME</a></div>
-        <div class="header-item"><a>PORTFOLIO</a></div>
+        <div class="header-item"><a style="border-bottom: 1px solid black;">PORTFOLIO</a></div>
         <div onclick="location.href = 'profile.html'" class="header-item"><a>ABOUT</a></div>
         <div onclick="location.href = '../../index.html'" class="header-item"><a>HOME</a></div>
     </div>
@@ -22,7 +24,7 @@
                     <aside class="cm-hover-content">
                         <aside class="card-title">CASE MANAGEMENT</aside>
                         <aside class="card-org">HealthIM</aside>
-                        <aside class="view-btn">VIEW</aside>
+                        <aside class="view-btn" onclick="location.href = 'case-management.html'">VIEW</aside>
                         <aside class="card-tech">TECHNOLOGIES</aside>
                         <aside class="card-tech-text">AngularJS, Ruby on Rails, PostgresSQL, RSA-AES Encryption</aside>
                     </aside>
@@ -48,7 +50,7 @@
                     <aside class="analytics-hover-content">
                         <aside class="card-title">ANALYTICS</aside>
                         <aside class="card-org">HealthIM</aside>
-                        <aside class="view-btn">VIEW</aside>
+                        <aside class="view-btn" onclick="location.href = 'analytics.html'">VIEW</aside>
                         <aside class="card-tech">TECHNOLOGIES</aside>
                         <aside class="card-tech-text">D3JS, PhantomJS, Ruby on Rails, PostgresSQL</aside>
                     </aside>

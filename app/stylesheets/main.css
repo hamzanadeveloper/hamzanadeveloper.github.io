@@ -56,16 +56,23 @@
     width: 100%;
     height: 100px;
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
     font-family: Metropolis-Light;
     font-weight: 300;
     color: black;
+    z-index: 999;
+    transition: all 0.2s linear;
+}
+.header-black.active{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color: white;
 }
 
 .logo-hna {
-    width: 130px;
+    width: 100px;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -418,4 +425,161 @@
 .right-field-container {
     float: left;
     margin-top: 10px;
+}
+* {box-sizing: border-box}
+.mySlides {display: none}
+.img-slide {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 700px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    font-family: Metropolis-Medium;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.numbertext {
+    font-family: Metropolis-Semi-Bold;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+.healthim-head-right {
+    width: 700px;
+    text-align: right;
+    display: block;
+    font-family: Metropolis-Light;
+    font-size: 20px;
+    color: #676767;
+    border-bottom: 1px solid #676767;
+    padding-top: 6px;
+}
+
+.project-title {
+    float: left;
+    font-family: Metropolis-Semi-Bold;
+    font-size: 30px;
+}
+
+.project-title-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.over-and-sum-horizontal {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.overview-text {
+    width: 100%;
+    font-family: Metropolis-Light;
+    border-bottom: 1px solid #676767;
+    margin-top: 10px;
+}
+
+.summary-text {
+    width: 100%;
+    font-family: Metropolis-Light;
+    border-bottom: 1px solid #676767;
+    margin-top: 30px;
+}
+
+.bullet-pt {
+    font-family: Metropolis-Light;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.summary-para {
+    font-family: Metropolis-Light;
+    font-size: 14px;
+    margin-top: 10px;
+    text-indent: 2em;
+    line-height: 1.2;
 }

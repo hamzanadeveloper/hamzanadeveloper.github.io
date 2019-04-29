@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Management - Hamza</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+    <script src="../scripts/slides.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/header-transition.js"></script>
+</head>
+<body>
+    <div class="header-black">
+        <img src="../../assets/img/hna_black.png" class="logo-hna">
+        <div class="header-item"><a>CONTACT</a></div>
+        <div class="header-item"><a>RESUME</a></div>
+        <div onclick="location.href = 'portfolio.html'" class="header-item"><a>PORTFOLIO</a></div>
+        <div onclick="location.href = 'profile.html'" class="header-item"><a>ABOUT</a></div>
+        <div onclick="location.href = '../../index.html'" class="header-item"><a>HOME</a></div>
+    </div>
+
+    <div class="project-title-container">
+        <div class="project-title">CASE MANAGEMENT</div>
+        <div class="healthim-head-right">HealthIM</div>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade" style="display:block;">
+            <div class="numbertext">1 / 4</div>
+            <img class="img-slide" src="../../assets/img/cm-slide-1.png" style="width:100%">
+            <div class="text">Profile View</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img class="img-slide" src="../../assets/img/cm-slide-2.png" style="width:100%">
+            <div class="text">Activity Log</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img class="img-slide" src="../../assets/img/cm-slide-3.png" style="width:100%">
+            <div class="text">Case Details</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="img-slide" src="../../assets/img/cm-slide-4.png" style="width:100%">
+            <div class="text">Search Filters</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="over-and-sum-horizontal">
+        <div class="overview-text">OVERVIEW</div>
+        <li class="bullet-pt"> Used AngularJS, jQuery, ChartJS, HTML5, and CSS3 to produce a seamless interface to display client information and risk history to hospital and policing administration.</li>
+        <li class="bullet-pt"> Encrypted all data in transit using military-grade RSA-AES Encryption, and used a PostgreSQL database.</li>
+        <li class="bullet-pt"> Utilized a Rails backend to configure routes to efficiently retrieve and post data to the server.</li>
+
+        <div class="summary-text">SUMMARY</div>
+        <div class="summary-para">
+            Case Management is my most recent project with my previous company, HealthIM. It is a tool used by both hospital and police administration
+            to perform history lookups on individuals who are frequently apprehended due to mental health crises. Since the data displayed is sensitive
+            information, all identifiable information in transit is encrypted/decrypted using RSA/AES encryption. The tool allows administration to view
+            an individual's previous apprehensions, analyze whether their at risk for another apprehension, and add sensitive information to their case file.
+        </div>
+    </div>
+
+</body>
+</html>

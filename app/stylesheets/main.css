@@ -678,3 +678,36 @@ a{
         transform: translateY(-25px);
     }
 }
+
+.resume-pic-container {
+    width: 200px;
+    border: 1px solid #636363;
+    text-align: center;
+    margin: 0 auto;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #EEE;
+    margin-top: -20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.pdf-logo {
+    width: 42px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.download-pdf-text {
+    font-family: Metropolis-Light;
+    font-size: 24px;
+    color: #636363;
+    margin-top: 5px;
+}
+
+.resume-pdf-image {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}

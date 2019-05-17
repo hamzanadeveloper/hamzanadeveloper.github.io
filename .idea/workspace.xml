@@ -205,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +228,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,15 +273,15 @@
       <workItem from="1557161732270" duration="124000" />
       <workItem from="1557161872268" duration="155000" />
       <workItem from="1557162046624" duration="117000" />
+      <workItem from="1557707422908" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49358000" />
+    <option name="totallyTimeSpent" value="49523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="320" y="222" width="800" height="599" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12323492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

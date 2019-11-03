@@ -14,4 +14,10 @@ $(document).ready(function () {
                 scrollTop: $(".home-profile").offset().top},
             'slow');
     });
+
+    $(".home-about-lead").click(function() {
+        $('html,body').animate({
+                scrollTop: $(".home-profile").offset().top},
+            'slow');
+    });
 });

@@ -8,4 +8,10 @@ $(document).ready(function () {
             $(".header-index").removeClass("active");
         }
     });
+
+    $(".pointer-home").click(function() {
+        $('html,body').animate({
+                scrollTop: $(".home-profile").offset().top},
+            'slow');
+    });
 });

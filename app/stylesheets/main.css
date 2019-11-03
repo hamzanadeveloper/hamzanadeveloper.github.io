@@ -136,7 +136,16 @@ a{
 .profile-entry-container {
     width: 226px;
     margin: 0 auto;
+    height:30px;
     margin-top: 20px;
+    color: white;
+}
+
+.profile-github-container {
+    width: 226px;
+    margin: 0 auto;
+    height:30px;
+    margin-top: 5px;
     color: white;
 }
 
@@ -152,7 +161,30 @@ a{
     margin-left: 10px;
 }
 
-.portfolio-entry:hover, .about-entry:hover, .contact-header:hover{
+.github-entry{
+    height: 25px;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 1.5px solid white;
+    text-align: center;
+    line-height: 25px;
+    font-family: Metropolis-Light;
+}
+
+.portfolio-github {
+    height: 25px;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    border: 1.5px solid white;
+    text-align: center;
+    line-height: 25px;
+    font-family: Metropolis-Light;
+    margin-left: 10px;
+}
+
+.portfolio-entry:hover, .about-entry:hover, .contact-header:hover, .github-entry:hover {
     background-color: white;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;

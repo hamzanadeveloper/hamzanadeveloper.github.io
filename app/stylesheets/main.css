@@ -797,6 +797,11 @@ a{
     text-align: center;
 }
 
+.mid-icon-container {
+    width: 20%;
+    text-align: center;
+}
+
 .top-icon-box {
     display: flex;
     flex-wrap: nowrap;
@@ -832,4 +837,19 @@ a{
 .icon-style-text {
     font-family: Metropolis-Medium;
     color: #d0d0d0;
+}
+
+.rails-icon {
+    width: 90px;
+    margin-top: 26px;
+}
+
+.node-icon {
+    width: 79px;
+    margin-top: 25px;
+}
+
+.feathers-icon {
+    width: 111px;
+    margin-top: 22px;
 }

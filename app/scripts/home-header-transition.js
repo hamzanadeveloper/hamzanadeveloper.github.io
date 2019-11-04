@@ -11,13 +11,13 @@ $(document).ready(function () {
 
     $(".pointer-home").click(function() {
         $('html,body').animate({
-                scrollTop: $(".home-profile").offset().top},
+                scrollTop: $(".home-profile").offset().top - 130},
             'slow');
     });
 
     $(".home-about-lead").click(function() {
         $('html,body').animate({
-                scrollTop: $(".home-profile").offset().top},
+                scrollTop: $(".home-profile").offset().top - 130},
             'slow');
     });
 });

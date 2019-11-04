@@ -764,8 +764,8 @@ a{
 
 .pointer-home {
     position: absolute;
-    bottom: 0;
-    width: 70px;
+    bottom: 1%;
+    width: 50px;
     cursor: pointer;
     left: 0;
     margin: 0 auto;
@@ -776,4 +776,60 @@ a{
     width: 100%;
     height: 500px;
     background: white;
+}
+
+.skills-box {
+    width: 100%;
+    height: 400px;
+    background-color: #191919;
+}
+
+.skills-title {
+    font-family: Metropolis-Medium;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    color: #DFDFDF;
+}
+
+.top-icon-container {
+    width: 20%;
+    text-align: center;
+}
+
+.top-icon-box {
+    display: flex;
+    flex-wrap: nowrap;
+    width: inherit;
+    justify-content: center;
+}
+
+.react-icon {
+    width: 108px;
+    margin: 20px;
+}
+
+.angular-icon {
+    width: 81px;
+    margin-top: 29px;
+}
+
+.vue-icon {
+    width: 85px;
+    margin-top: 36px;
+}
+
+.d3-icon {
+    width: 93px;
+    margin-top: 23px;
+}
+
+.svelte-icon {
+    width: 90px;
+    margin-top: 27px;
+}
+
+.icon-style-text {
+    font-family: Metropolis-Medium;
+    color: #d0d0d0;
 }

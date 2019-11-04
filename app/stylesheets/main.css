@@ -1,3 +1,6 @@
+html{
+    overflow: auto
+}
 @font-face {
     font-family: Metropolis-Light;
     src: url("../../assets/fonts/metropolis.light.otf") format("opentype");
@@ -852,4 +855,7 @@ a{
 .feathers-icon {
     width: 111px;
     margin-top: 22px;
+}
+.tippy-tooltip {
+    font-family: Metropolis-Medium;
 }

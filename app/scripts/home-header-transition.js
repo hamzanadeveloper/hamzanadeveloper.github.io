@@ -20,13 +20,7 @@ $(document).ready(function () {
                 scrollTop: $(".home-profile").offset().top - 130},
             'slow');
     });
-
-    $(".about-a-tag").click(function() {
-        $('html,body').animate({
-                scrollTop: $(".home-profile").offset().top - 130},
-            'slow');
-    });
-
+    
     tippy('#react-icon', {
         content: '<u>Company</u>: The Hospital for SickKids <br><li>React Native Push Notifications</li><li>React Native + Expo Demo</li><li>React Google Search List</li><li>AWS FeathersJS</li>',
         placement: 'bottom',

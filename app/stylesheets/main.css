@@ -859,3 +859,63 @@ a{
 .tippy-tooltip {
     font-family: Metropolis-Medium;
 }
+
+.li-experience {
+    font-family: Metropolis-Light;
+    margin: 5px;
+}
+
+.hr-experience {
+    width: 75%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.experience-box {
+    width: 100%;
+    height: auto;
+    background: #E8E8E8;
+}
+
+.experience-first {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.second-box {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.third-experience {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.job-title {
+    font-family: Metropolis-Medium;
+    font-size: 23px;
+    color: #191919;
+}
+
+.position-first {
+    font-family: Metropolis-Light;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.position-second {
+    font-family: Metropolis-Light;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.position-third {
+    font-family: Metropolis-Light;
+    font-size: 15px;
+    padding-bottom: 10px;
+}

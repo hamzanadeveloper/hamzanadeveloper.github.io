@@ -21,7 +21,7 @@ $(document).ready(function () {
             'slow');
     });
 
-    $(".about-entry").click(function() {
+    $(".about-a-tag").click(function() {
         $('html,body').animate({
                 scrollTop: $(".home-profile").offset().top - 130},
             'slow');

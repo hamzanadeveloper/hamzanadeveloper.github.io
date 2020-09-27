@@ -149,6 +149,8 @@ a{
     height:30px;
     margin-top: 20px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .profile-github-container {
@@ -207,13 +209,13 @@ a{
 .about-entry {
     height: 25px;
     width: 100px;
-    float: right;
+    /*float: right;*/
     cursor: pointer;
     border: 1.5px solid white;
     text-align: center;
     line-height: 25px;
     font-family: Metropolis-Light;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 }
 
 .opening-container {
